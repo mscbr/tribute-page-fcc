@@ -54,7 +54,8 @@ body {
 	background-image: url("bg-image.png");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
-	font-family: 'Noto Serif KR', sans-serif;
+	font-family: 'Poppins', sans-serif;
+
 }
 nav {
 	display: flex;
@@ -66,7 +67,7 @@ nav {
 	margin-top: 38%;
 	height: 40px;
 	background: linear-gradient(135deg, rgba(0,0,0,1) 0%,rgba(255,255,255,1) 39%);
-	/*font-weight: lighter;*/
+	font-weight: 300;
 	font-size: 24px;
 	letter-spacing: 2px;
 }
