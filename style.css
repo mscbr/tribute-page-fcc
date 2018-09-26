@@ -49,7 +49,7 @@ table {
 }
 
 /*MAIN PART OF STYLESHEET*/
-
+/* add media queries under 1000px width*/
 body {
 	background-image: url("bg-image.png");
 	background-size: 100% auto;
@@ -80,6 +80,42 @@ nav a:hover {
 }
 #title {
 	margin-left: -4%;
-	color: white;
-	
+	color: white;	
+}
+main {
+	padding-top: 10px;
+}
+#about {
+	display: inline-block;
+}
+#img-div {
+	float: left;
+	width: 30%;
+	letter-spacing: 1px;
+	font-size: 11px;
+	margin-left: 10%;
+	margin-top: 4px;
+}
+#image {
+	display: block;
+	margin-bottom: 2px;
+	height: 435px;
+	width: auto;
+	border-radius: 10px;
+}
+#tribute-info {
+	margin-left: 23%
+}
+#p-div {
+	display: inline-block;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 35%;
+	margin-right: 10%;
+	margin-left: 10px;
+}
+p {
+	line-height: 150%;
+	text-align: justify;	
 }
