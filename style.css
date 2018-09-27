@@ -103,7 +103,6 @@ main {
 	width: 38%;
 	letter-spacing: 1px;
 	font-size: 11px;
-	/*padding-left: 10%;*/
 	margin-top: 4px;
 	text-align: center;
 	margin-left:  10%;
@@ -124,11 +123,8 @@ img {
 #p-div {
 	display: inline-block;
 	float: right;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: 35%;
-	margin-right: 10%;
-	margin-left: 10px;
+	width: 40%;
+	margin-right: 8%;
 }
 p {
 	line-height: 150%;
@@ -147,6 +143,7 @@ p {
 	float: right;
 	width: 35%;
 	margin-top: 4px;
+	margin-right:  4%;
 	letter-spacing: 1px;
 	font-size: 11px;
 	text-align: center;
@@ -156,12 +153,43 @@ p {
 	height: auto;
 	margin-right: 10%;
 	border-radius: 10px;
+	margin-bottom: 2px;
 }
 #p-bio {
 	display: inline-block;
 	float: left;
 	width: 50%;
 	padding-left: 10%;
+}
+#med {
+	display: inline-block;
+	margin-top: 20px;
+}
+#med h1 {
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
+#medimg-div {
+	float: left;
+	width: 38%;
+	letter-spacing: 1px;
+	font-size: 11px;
+	margin-top: 4px;
+	text-align: center;
+	margin-left:  10%;
+}
+#medimg {
+	display: block;
+	margin-bottom: 2px;
+	height: auto;
+	width: 100%;
+	border-radius: 10px;
+}
+#p-med {
+	display: inline-block;
+	float: right;
+	width: 40%;
+	margin-right: 8%;
 }
 
 /*MEDIA QUERIES FOR LES THAN 750 width*/
@@ -173,7 +201,7 @@ p {
 		font-size: 18px;
 	}
 	#img-div {
-		padding-left: 8%;
+		margin-left: 8%;
 	}
 	#p-div {
 		width: 40%;
