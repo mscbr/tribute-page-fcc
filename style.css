@@ -50,6 +50,9 @@ table {
 
 /*MAIN PART OF STYLESHEET*/
 /* add media queries under 1000px width*/
+html body {
+	text-align:center;
+}
 body {
 	background-image: url("bg-image.png");
 	background-size: 100% auto;
@@ -100,9 +103,10 @@ main {
 	width: 38%;
 	letter-spacing: 1px;
 	font-size: 11px;
-	padding-left: 10%;
+	/*padding-left: 10%;*/
 	margin-top: 4px;
 	text-align: center;
+	margin-left:  10%;
 }
 #image {
 	display: block;
@@ -110,6 +114,12 @@ main {
 	height: auto;
 	width: 100%;
 	border-radius: 10px;
+}
+img {
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
 }
 #p-div {
 	display: inline-block;
