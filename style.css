@@ -83,8 +83,7 @@ nav a:hover {
 	opacity: 0.6;
 }
 #title {
-	margin-left: -4%;
-	color: white;	
+	color: white;
 }
 main {
 	padding-top: 10px;
@@ -129,4 +128,26 @@ main {
 p {
 	line-height: 150%;
 	text-align: justify;	
+}
+
+/*MEDIA QUERIES FOR LES THAN 750 width*/
+@media only screen and (max-width: 750px) {
+	h1 {
+		font-size: 20px;
+	}
+	nav {
+		font-size: 18px;
+	}
+	#img-div {
+		padding-left: 8%;
+	}
+	#p-div {
+		font-size: 15px;
+		width: 40%;
+		margin-right: 7%;
+	}
+	p {
+		line-height: 110%;
+	}
+
 }
