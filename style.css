@@ -111,11 +111,6 @@ main {
 	width: 100%;
 	border-radius: 10px;
 }
-#tribute-info {
-	/* margin-left: 10px; */
-	/* text-align: center; */
-	/* width:  100%; */
-}
 #p-div {
 	display: inline-block;
 	float: right;
@@ -128,6 +123,32 @@ main {
 p {
 	line-height: 150%;
 	text-align: justify;	
+}
+#biocentrism {
+	display: inline-block;
+	margin-top: 20px;
+}
+#biocentrism h1 {
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+#imgbio-div {
+	display: inline-block;
+	float: right;
+	width: 35%;
+	margin-top: 4px;
+}
+#imgbio {
+	width: 90%;
+	height: auto;
+	margin-right: 10%;
+	border-radius: 10px;
+}
+#p-bio {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding-left: 10%;
 }
 
 /*MEDIA QUERIES FOR LES THAN 750 width*/
@@ -142,12 +163,13 @@ p {
 		padding-left: 8%;
 	}
 	#p-div {
-		font-size: 15px;
 		width: 40%;
 		margin-right: 7%;
 	}
 	p {
 		line-height: 110%;
+		font-size: 12px;
+
 	}
 
 }
