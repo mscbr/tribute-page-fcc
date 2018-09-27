@@ -57,6 +57,10 @@ body {
 	font-family: 'Poppins', sans-serif;
 
 }
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
 nav {
 	display: flex;
 	justify-content: space-around;
@@ -88,23 +92,30 @@ main {
 #about {
 	display: inline-block;
 }
+#about h1 {
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
 #img-div {
 	float: left;
-	width: 30%;
+	width: 38%;
 	letter-spacing: 1px;
 	font-size: 11px;
-	margin-left: 10%;
+	padding-left: 10%;
 	margin-top: 4px;
+	text-align: center;
 }
 #image {
 	display: block;
 	margin-bottom: 2px;
-	height: 435px;
-	width: auto;
+	height: auto;
+	width: 100%;
 	border-radius: 10px;
 }
 #tribute-info {
-	margin-left: 23%
+	/* margin-left: 10px; */
+	/* text-align: center; */
+	/* width:  100%; */
 }
 #p-div {
 	display: inline-block;
