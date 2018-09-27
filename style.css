@@ -191,6 +191,33 @@ p {
 	width: 40%;
 	margin-right: 8%;
 }
+#resources {
+	margin-top: 20px;
+}
+#resource h1 {
+	margin-bottom: 25px;
+}
+#ul-p {
+	margin-left: 10%;
+	font-size: 17px;
+	text-decoration:  underline;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	text-align: left;
+	margin-left: 13%;
+	line-height: 300%;
+	list-style-type: circle;
+}
+footer {
+	margin-left: 2%;
+	font-size: 11px;
+	margin-top: 50px;
+	margin-bottom:  25px;
+	font-style:  italic;
+}
 
 /*MEDIA QUERIES FOR LES THAN 750 width*/
 @media only screen and (max-width: 750px) {
